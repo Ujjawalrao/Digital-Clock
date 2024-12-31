@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 6vh;
+    padding: 1.5rem 1rem;
+    font-size: 1.2rem;
+    border-bottom: .1px solid gainsboro;
+    position: absolute;
+  }
+
+nav .leftnav{
+    /* background: #5d5d5d; */
+    padding: .5rem;
+    border-radius: 5px;
+    color: white;
+    font-family: cursive;
+    font-weight: 200;
+  }
+
+nav a .rightnav{
+    background: #5d5d5d;
+    padding: .5rem;
+    border-radius: 5px;
+    color: white;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(58, 88, 117);
+    height: 100vh;
+    background-image: url(https://wallpaperaccess.com/full/295721.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#cnt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;        
+    /* background-color: #ca50a3f3; */
+    position: relative;
+    width: 17%;
+    height: 20%;
+}
+
+.bgcircle{
+    background: #000;
+    height: 25px;
+    width: 25px;
+    z-index: 1;
+    border-radius: 50px;
+    margin: 2px;
+}
+
+#raper{
+    padding: .5rem 2rem;
+    background-color: rgba(64, 64, 64, 0.268);
+    backdrop-filter: blur(2px);
+    border-radius: 50px;
+    margin: 2px;
+    position: absolute;
+    z-index: 5;
+    box-shadow: 2px 2px 4px rgba(32, 30, 30, 0.589) ;
+    color: white;
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
